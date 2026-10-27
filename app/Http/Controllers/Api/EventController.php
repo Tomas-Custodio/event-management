@@ -51,7 +51,8 @@ class EventController extends Controller {
     public function show(Event $event) {
 
         #Gate::authorize('cando',$event);
-        new EventResource($event);
+
+        return new EventResource($event);
     }
 
     public function update(Request $request, Event $event) {
