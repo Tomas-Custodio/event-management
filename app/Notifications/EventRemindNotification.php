@@ -20,8 +20,6 @@ class EventRemindNotification extends Notification {
 
     }
     
-
-
     /**
      * Get the notification's delivery channels.
      *
